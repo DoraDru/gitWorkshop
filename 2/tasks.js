@@ -8,9 +8,9 @@
 const getBeers = require('../data')
 
 function getTargetBeer() {
-    const result = [];
+    const result = []
     const beers = getBeers();
-    result.push(beers[0].name, beers[0].brewery);
+    result.push(beers[0].name,beers[0].brewery)
     return result;
 }
 
