@@ -8,7 +8,8 @@
 const getBeers = require('../data')
 
 function getTargetBeer() {
-    // TODO: see task above (one person should only solve one of the tasks)
+    const beers = getBeers();
+    return beers[0].name;
 }
 
 console.log(getTargetBeer())
