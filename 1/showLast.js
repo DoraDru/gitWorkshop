@@ -3,7 +3,8 @@
 const getBeers = require('../data')
 
 function getLastBeer() {
-    // TODO: return the last beer object (use `getBeers` for the solution)
+    const beers = getBeers()
+    return beers[beers.length-1];
 }
 
 if (getLastBeer()?.name === "All the Leaves are Brown") {
