@@ -7,7 +7,7 @@ const getBeers = require('./data')
 
 function main() {
   const beers = getBeers()
-  beers.map(beer => {
+  beers.forEach(beer => {
     console.log(beer.name)
   })
 }
